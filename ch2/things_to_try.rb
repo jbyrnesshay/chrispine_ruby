@@ -3,8 +3,6 @@
 def hours_in_year
   _hours_in_year = (24*7) * 52
 end
-
-
 puts hours_in_year
 
 
@@ -14,7 +12,6 @@ puts hours_in_year
 def mins_in_decade
   _mins = (60 * 24) * 365 * 10
 end
-
 puts mins_in_decade
 
 
@@ -28,6 +25,7 @@ puts time_at_birth
 age_in_seconds = time_now - time_at_birth
 puts age_in_seconds.floor
 puts (age_in_seconds / 60 / 60 / 24 / 365).floor
+
 
 #if I am 1160 million seconds old, how old am I?
 age = 1_160_000_000
