@@ -15,5 +15,5 @@ def ask question
   end
 end
 
-funtimes = ask 'should they die?'
+funtimes = ask 'should they or not?'
 puts funtimes
